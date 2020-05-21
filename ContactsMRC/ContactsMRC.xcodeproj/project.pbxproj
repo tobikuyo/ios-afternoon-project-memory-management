@@ -15,6 +15,7 @@
 		2C9EF4C22476AACB0070F36A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9EF4C12476AACB0070F36A /* main.m */; };
 		2C9EF4D02476B1270070F36A /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9EF4CF2476B1270070F36A /* ContactsTableViewController.m */; };
 		2C9EF4D32476B1420070F36A /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9EF4D22476B1420070F36A /* ContactDetailViewController.m */; };
+		2C9EF4D62476BE670070F36A /* OTKContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9EF4D52476BE670070F36A /* OTKContact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		2C9EF4CF2476B1270070F36A /* ContactsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
 		2C9EF4D12476B1420070F36A /* ContactDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
 		2C9EF4D22476B1420070F36A /* ContactDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
+		2C9EF4D42476BE670070F36A /* OTKContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTKContact.h; sourceTree = "<group>"; };
+		2C9EF4D52476BE670070F36A /* OTKContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTKContact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 		2C9EF4CD2476AD1E0070F36A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2C9EF4D42476BE670070F36A /* OTKContact.h */,
+				2C9EF4D52476BE670070F36A /* OTKContact.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				2C9EF4D02476B1270070F36A /* ContactsTableViewController.m in Sources */,
 				2C9EF4B42476AACA0070F36A /* SceneDelegate.m in Sources */,
 				2C9EF4D32476B1420070F36A /* ContactDetailViewController.m in Sources */,
+				2C9EF4D62476BE670070F36A /* OTKContact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
