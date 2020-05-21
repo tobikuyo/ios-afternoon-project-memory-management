@@ -13,6 +13,8 @@
 		2C9EF4BC2476AACB0070F36A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9EF4BB2476AACB0070F36A /* Assets.xcassets */; };
 		2C9EF4BF2476AACB0070F36A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9EF4BD2476AACB0070F36A /* LaunchScreen.storyboard */; };
 		2C9EF4C22476AACB0070F36A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9EF4C12476AACB0070F36A /* main.m */; };
+		2C9EF4D02476B1270070F36A /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9EF4CF2476B1270070F36A /* ContactsTableViewController.m */; };
+		2C9EF4D32476B1420070F36A /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9EF4D22476B1420070F36A /* ContactDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2C9EF4BE2476AACB0070F36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C9EF4C02476AACB0070F36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C9EF4C12476AACB0070F36A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C9EF4CE2476B1270070F36A /* ContactsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
+		2C9EF4CF2476B1270070F36A /* ContactsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
+		2C9EF4D12476B1420070F36A /* ContactDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactDetailViewController.h; sourceTree = "<group>"; };
+		2C9EF4D22476B1420070F36A /* ContactDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		2C9EF4CB2476ACC50070F36A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2C9EF4CE2476B1270070F36A /* ContactsTableViewController.h */,
+				2C9EF4CF2476B1270070F36A /* ContactsTableViewController.m */,
+				2C9EF4D12476B1420070F36A /* ContactDetailViewController.h */,
+				2C9EF4D22476B1420070F36A /* ContactDetailViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -191,7 +201,9 @@
 			files = (
 				2C9EF4B12476AACA0070F36A /* AppDelegate.m in Sources */,
 				2C9EF4C22476AACB0070F36A /* main.m in Sources */,
+				2C9EF4D02476B1270070F36A /* ContactsTableViewController.m in Sources */,
 				2C9EF4B42476AACA0070F36A /* SceneDelegate.m in Sources */,
+				2C9EF4D32476B1420070F36A /* ContactDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
